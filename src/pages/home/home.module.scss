@@ -1,10 +1,9 @@
-/* src/pages/Home/Home.module.css */
 .hero {
   width: 100vw;
   position: relative;
 
   min-height: 100vh; 
-  background: url('/hero-bg.png') center/cover no-repeat;
+  background: url('/images/hero-bg.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +24,7 @@
   outline: none;
 }
 
-.container{
+.heroContainer{
   max-width: 95vw;
   width: 100%;
   position: relative;
@@ -34,10 +33,10 @@
   align-items: center;
   z-index: 1;
   color: #ECECEC;
-  font-family: 'Inter', sans-serif;
+  font-family: 'MyFont', sans-serif;
 }
 
-.title{
+.heroTitle{
   font-size: 6rem;
   line-height: 1;
   margin: 0;

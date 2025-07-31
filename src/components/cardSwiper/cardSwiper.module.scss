@@ -1,0 +1,94 @@
+.swiper{
+    position: relative;
+    width: 95vw;
+    height: 100vh;
+    margin: 0 2.5vw 0 2.5vw;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.styleInner{
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    overflow: hidden;
+}
+
+.title{
+    font-family: 'MyFont', sans-serif;
+    padding: 0 0 2rem 0;
+    position: relative;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  &.prev{
+    margin-left: 85vw;
+  }
+  &.next{
+    margin-left: 1vw;
+  }
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;  
+  border-bottom: 1px solid #D9D9D9 ;
+}
+
+.card{
+    flex: 0 0 auto;
+    height: fit-content;
+    width: fit-content;
+    max-width: 30vw;
+    scroll-snap-align: start;
+    
+}
+
+.cardBody{
+    padding: 1rem;
+}
+
+.cardImage{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.cardDate{
+    font-family: 'Inter', sans-serif;
+    color: #4B4B4B;
+}
+
+.cardTitle{
+    font-family: 'Inter',  sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: -0.01rem;
+}
+
+.cardText{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #4B4B4B;
+}

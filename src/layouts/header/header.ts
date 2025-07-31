@@ -1,4 +1,4 @@
-import styles from './header.module.css'
+import styles from './header.module.scss'
 
 const loadSvg = async (path: string): Promise<string> => {
     try {
@@ -19,8 +19,8 @@ export const Header = async (): Promise<HTMLElement> => {
     const container = document.createElement('div');
     container.className = styles.container;
 
-    const svgLogo= await loadSvg('/logo.svg');
-    const svgArrow = await loadSvg('/arrow-l.svg')
+    const svgLogo= await loadSvg('/images/logo.svg');
+    const svgArrow = await loadSvg('/images/arrow-l.svg')
 
     const currentLang = localStorage.getItem('lang') || 'ru';
     const langs = {

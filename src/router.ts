@@ -1,4 +1,4 @@
-import { renderAppLayouts } from "./components/appLayout";
+import { renderAppLayouts } from "./layouts/appLayout";
 import { aboutPage } from "./pages/about/about";
 import { homePage } from "./pages/home/home";
 

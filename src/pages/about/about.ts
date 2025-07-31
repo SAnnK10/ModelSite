@@ -1,5 +1,5 @@
 // src/pages/About/About.ts
-import styles from './about.module.css';
+import styles from './about.module.scss';
 
 export const aboutPage = (): HTMLElement => {
   const page = document.createElement('div');

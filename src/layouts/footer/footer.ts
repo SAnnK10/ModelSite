@@ -1,5 +1,5 @@
 // src/components/Footer/Footer.ts
-import styles from './Footer.module.css';
+import styles from './footer.module.scss';
 
 export const Footer = (): HTMLElement => {
   const footer = document.createElement('footer');

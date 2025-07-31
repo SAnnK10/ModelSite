@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }    
 
 .langButton {
@@ -73,9 +74,9 @@
 }
 
 .navLink:hover{
-    color:rgb(20, 142, 194);
+    color:white;
     text-decoration: none;
-    border: 1px solid rgb(20, 142, 194);
+    border: 1px solid white;
     border-radius: 7px;
 }
 
@@ -83,5 +84,4 @@
     display: flex;
     align-items: center;
     gap: 15rem;
-    margin-left: -5vw;
 }
